@@ -13,9 +13,9 @@ parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1) /'
 }
 
-PS1="\[\e[01;32m\]\u@\h\[\e[00m\]:\[\e[01;34m\]\W\[\e[00m\]\$ "
+PS1="\[\e[01;32m\]\u@\h\[\e[00m\]:\[\e[01;96m\]\W\[\e[00m\]\$ "
 
-odoo_host='7758911@pegasuscontrol-pruebas-valentin-7758911.dev.odoo.com'
+odoo_host='8996239@pegasuscontrol-pruebas-valentin-8996239.dev.odoo.com'
 alias odoo-server="ssh $odoo_host"
 alias odoo-update="odoo-server odoo-bin -u"
 
