@@ -6,6 +6,7 @@ export PS1='\[\e[38;5;34m\][\A] \[\e[38;5;82m\]\u@\H \[\e[38;5;84m\]\W \[\e[38;5
 
 odoo_host='7758911@pegasuscontrol-pruebas-valentin-7758911.dev.odoo.com'
 alias odoo-server="ssh $odoo_host"
+#se actuliza el modulo
 alias odoo-update="odoo-server odoo-bin -u"
 
 odoo-logs () {
