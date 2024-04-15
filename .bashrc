@@ -17,6 +17,7 @@ PS1="\[\e[01;32m\]\u@\h\[\e[00m\]:\[\e[01;96m\]\W\[\e[00m\]\$ "
 
 odoo_host='8996239@pegasuscontrol-pruebas-valentin-8996239.dev.odoo.com'
 alias odoo-server="ssh $odoo_host"
+#actualizar modulo
 alias odoo-update="odoo-server odoo-bin -u"
 
 odoo-logs () {
@@ -66,3 +67,4 @@ odoo-sync() {
 		echo "[DONE]"
 	fi
 }
+
